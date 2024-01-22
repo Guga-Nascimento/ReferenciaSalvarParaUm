@@ -1,0 +1,10 @@
+
+
+Primeiro passo é criar um dto que recebe a requisão do front, manda para a
+camada de service que prepara tudo com o banco de dados  e devolve um obj copiado
+sem acessar o banco como dto.
+
+
+nunca alinhar um dto direto com a entidade, senão estará furando e estrutura do projeto.
+
+
